@@ -1,0 +1,9 @@
+*.Rmd           text
+*.md            text
+*.R             text
+*.yml           text
+*.Rproj         text
+.gitattributes  text
+.gitignore      text
+.Rbuildignore   text
+DESCRIPTION     text
