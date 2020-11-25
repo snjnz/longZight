@@ -1,6 +1,6 @@
 Package: longZight
 Title: Longitudinal Data Visualisation for iNZight
-Version: 0.1.0.9001
+Version: 0.1.0.9002
 Authors@R: 
     person(given = "Sophie",
            family = "Jones",
