@@ -25,6 +25,7 @@ Imports:
     forcats,
     ggalluvial,
     ggplot2,
+    ggthemes,
     tidyr,
     dplyr,
     magrittr,
