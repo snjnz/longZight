@@ -28,7 +28,7 @@ iz_plot_lasagna <- function(...) {
 iz_plot_lasagna.longZightLasagna <- function(.data, response, xlab = "Wave", title = paste0("Plot of ", response), completecases = FALSE, ...) {
   print(.data %>%
           plot_long_lasagna +
-          ggtitle(response))
+          ggplot2::ggtitle(response))
 }
 
 #' iNZight Helper Function to generate Lasagna plots from \code{longZight} objects
@@ -38,5 +38,5 @@ iz_plot_lasagna.longZightLasagna <- function(.data, response, xlab = "Wave", tit
 iz_plot_lasagna.longZight <- function(.data, response, sortorder = 1, xlab = "Wave", title = paste0("Plot of ", response), completecases = FALSE, ...) {
   print(.data %>% recode_long_lasagna(response, sortorder, completecases, ts.args = FALSE) %>%
           plot_long_lasagna +
-          ggtitle(response))
+          ggplot2::ggtitle(response))
 }

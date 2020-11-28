@@ -35,7 +35,7 @@ iz_plot_alluvial <- function(...) {
 iz_plot_alluvial.longZightAlluv <- function(.data, response, xlab = "Wave", title = paste0("Plot of ", response), completecases = FALSE, highlight = NULL, plot.mode = 1, focus = NULL, ...) {
   print(.data %>%
         plot_long_alluvial(highlight = highlight, focus = focus) +
-          ggtitle(response))
+          ggplot2::ggtitle(response))
 }
 
 #' iNZight Helper Function to generate Alluvial plots from \code{longZightLasagna} objects
